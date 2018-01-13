@@ -5,7 +5,9 @@ python3.5+opencv+adb工具
 运行autojump.py文件。默认分辨率是1920*1080的手机。计划之后使用摄像头加机械臂。
 ## 注意事项<br>
 图像识别利用30度角和漫水填充，消除了累计误差，基本可以做到一直跳不死。<br>
-但跳的太准的bug还没有修复，不要连续跳中心太多次，成绩容易被ban。
+但跳的太准的bug还没有修复，不要连续跳中心太多次，成绩容易被ban。<br><br>
+自动跳一跳如下图：<br>
+![image](https://raw.githubusercontent.com/wyf0912/JumpJump/master/github_src/jump.gif)
 
 # 机械外挂部分<br>
 此部分是为了以后实现摄像头加机械臂，添加的功能。
