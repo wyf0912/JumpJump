@@ -55,7 +55,7 @@ def goal_detect(img,body_position):
 
     edge_list=[0,0,0,0]
     for i in range(3):
-        region_gray=cv2.cvtColor(region,cv2.COLOR_BGR2HSV)[:,:,idx]
+        region_gray=cv2.cvtColor(region,cv2.COLOR_BGR2HSV)[:,:,i]
         #region_gray=cv2.equalizeHist(region_gray)
         edge_list[i]=cv2.Canny(region_gray,80,160)
 

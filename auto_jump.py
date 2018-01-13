@@ -59,7 +59,7 @@ def main():
         goal_pos = goal_detect(im, self_pos)
         im = cv2.resize(im,(540,960))
         cv2.imshow("test",im)
-        cv2.waitKey(int(random.uniform(3000, 1000)))
+        cv2.waitKey(int(random.uniform(300, 50)))
         jump(pow(pow(goal_pos[0] - self_pos[0],2)+pow(goal_pos[1] - self_pos[1],2),0.5))
         cv2.waitKey(1500)
 
