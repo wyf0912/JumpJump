@@ -11,5 +11,5 @@ python3.5+opencv+adb工具
 此部分是为了以后实现摄像头加机械臂，添加的功能。
 ## 屏幕提取<br>
 此部分是为了实现从图像中找到手机屏幕，并将其利用透视变换提取出来。效果及原理如下图<br>
-![image](https://raw.githubusercontent.com/wyf0912/PlayOwnGame-with-DQN/master/github_src/屏幕提取示意.png)
+![image](https://raw.githubusercontent.com/wyf0912/PlayOwnGame-with-DQN/master/github_src/detect_screen.jpg)
 
